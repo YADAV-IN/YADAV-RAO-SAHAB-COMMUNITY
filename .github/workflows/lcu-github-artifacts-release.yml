@@ -2,13 +2,13 @@ name: YADAV-IN/YADAV-RAO-SAHAB-COMMUNITY
 
 on:
   push:
-    branches: [main]
+    branches: [yadav]
   pull_request:
-    branches: [main]
+    branches: [yadav]
 
 env:
-  Branches: main
-  MainBranch: main
+  Branches: yadav
+  MainBranch: yadav
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm i
   BuildCommand: npm run build
